@@ -373,5 +373,5 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 	<mx:Button label="" id="btnLogout" styleName="logoutButtonStyle"
                  toolTip="{ResourceUtil.getInstance().getString('bbb.mainToolbar.logoutBtn.toolTip')}" right="10" click="confirmLogout()" height="22"
                  tabIndex="{baseIndex+numButtons+15}" />
-	<mx:Image id="hyveImage" source="@Embed(source='assets/hyve-logo.png')" />
+	<mx:Label id="hyveLogo" styleName="hyveLogo" htmlText="HYVE" />
 </mx:ApplicationControlBar>
